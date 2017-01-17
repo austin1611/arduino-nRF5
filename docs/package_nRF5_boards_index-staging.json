@@ -1,0 +1,148 @@
+{
+  "packages": [
+    {
+      "name": "sandeepmistry",
+      "maintainer": "Sandeep Mistry",
+      "websiteURL": "https://github.com/sandeepmistry/arduino-nRF5",
+      "email": "sandeep.mistry@gmail.com",
+      "help": {
+        "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+      },
+      "platforms": [
+        {
+          "name": "Nordic Semiconductor nRF5 Boards",
+          "architecture": "nRF5",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+          },
+          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.1.0.tar.gz",
+          "archiveFileName": "arduino-nRF52-0.1.0.tar.gz",
+          "checksum": "MD5:1825f6420104225f5fee11b467923b7d",
+          "size": "591297",
+          "boards": [
+            {"name": "nRF52 DK"},
+            {"name": "Bluz DK"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "sandeepmistry",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "sandeepmistry",
+              "name": "openocd",
+              "version": "0.10.0-dev.nrf5"
+            }
+          ]
+        },
+        {
+          "name": "Nordic Semiconductor nRF5 Boards",
+          "architecture": "nRF5",
+          "version": "0.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
+          },
+          "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.2.0.tar.gz",
+          "archiveFileName": "arduino-nRF52-0.2.0.tar.gz",
+          "checksum": "MD5:1ed95ee9030e4ca1371665258a3cdee4",
+          "size": "562847",
+          "boards": [
+            {"name": "nRF52 DK"},
+            {"name": "Bluz DK"},
+            {"name": "RedBearLab BLE Nano"},
+            {"name": "RedBearLab nRF51822"},
+            {"name": "BBC micro:bit"},
+            {"name": "OSHChip"},
+            {"name": "Generic nRF51822"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "sandeepmistry",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "sandeepmistry",
+              "name": "openocd",
+              "version": "0.10.0-dev.nrf5"
+            }
+          ]
+        }
+      ],
+      "tools":[
+        {
+          "name": "gcc-arm-none-eabi",
+          "version": "5_2-2015q4",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.zip",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.zip",
+              "size": "123321627",
+              "checksum": "MD5:a2a240e40e16f2007a88a29a15212b50"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.zip",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.zip",
+              "size": "119883410",
+              "checksum": "MD5:c4ec5aea64e3c273513524a668865b96"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.zip",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.zip",
+              "size": "119883410",
+              "checksum": "MD5:c4ec5aea64e3c273513524a668865b96"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.zip",
+              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.zip",
+              "size": "123007908",
+              "checksum": "MD5:62cf754ab6dc7160356278ca85f84288"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "0.10.0-dev.nrf5",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-osx-0.10.0-dev-nrf5.zip",
+              "archiveFileName": "openocd-osx-0.10.0-dev-nrf5.zip",
+              "size": "1613210",
+              "checksum": "MD5:65e264b5eebfc828899616942f2b2301"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.zip",
+              "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.zip",
+              "size": "3745903",
+              "checksum": "MD5:045026b97051debf2e78838ea5623e5d"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.zip",
+              "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.zip",
+              "size": "3745903",
+              "checksum": "MD5:045026b97051debf2e78838ea5623e5d"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-win32-0.10.0-dev-nrf5.tar.gz",
+              "archiveFileName": "openocd-win32-0.10.0-dev-nrf5.zip",
+              "size": "5498373",
+              "checksum": "MD5:1e03019a21206bf79750f946a3b7030c"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
